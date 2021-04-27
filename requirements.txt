@@ -1,0 +1,3 @@
+six==1.15.0
+
+django-email-queue

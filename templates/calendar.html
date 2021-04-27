@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% load static %}
+
+
+    {% block content %}
+<center>
+
+    <div class="clearfix">
+
+	<a button type="button" class="btn btn-info" href="{% url 'calendar' %}?{{ prev_month }}"> Previous Month </a>
+	<a class="btn btn-info" href="{% url 'calendar' %}?{{ next_month }}"> Next Month </a>
+</div>
+
+
+        {{ calendar }}
+
+
+  </div>
+    </div>
+        </center>
+
+{% endblock %}
