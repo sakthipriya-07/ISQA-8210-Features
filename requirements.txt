@@ -1,3 +1,4 @@
 six==1.15.0
-
+Django==2.2
+six==1.15.0
 django-email-queue
